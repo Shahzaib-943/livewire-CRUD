@@ -9,6 +9,8 @@
 </head>
 <body>
 <x-navbar />
+   {{$slot}}
+   
     @livewire('create-post')
     @livewireScripts
 </body>
